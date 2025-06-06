@@ -28,7 +28,7 @@ DCDetector is tailored for anomaly detection using a **dual-branch architecture*
 
 ## 📁 Repository Structure
 
-- **📂 `code/`** – Contains implementation of both models (`ts2vec/` and `dcdetector/`).
+- **📂 `code/`** – Contains code files of both models
 - **📂 `results/`** – Includes all evaluation metrics and training logs.
 - **📂 `original_papers/`** – Contains PDFs of the original TS2Vec and DCDetector research papers.
 - **📄 `Deakin_FTP.pdf`** – Our complete literature review, reproduction experiments, comparisons, and findings.
