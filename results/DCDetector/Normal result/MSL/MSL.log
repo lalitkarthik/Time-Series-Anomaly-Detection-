@@ -1,0 +1,73 @@
+
+
+
+2025-03-09 10:52:26
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 64
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.0802s/iter; left time: 210.8596s
+	speed: 0.0729s/iter; left time: 184.2616s
+	speed: 0.0729s/iter; left time: 176.9153s
+	speed: 0.0730s/iter; left time: 170.0172s
+	speed: 0.0729s/iter; left time: 162.4075s
+	speed: 0.0729s/iter; left time: 155.0436s
+	speed: 0.0728s/iter; left time: 147.6620s
+	speed: 0.0729s/iter; left time: 140.4705s
+	speed: 0.0729s/iter; left time: 133.2561s
+Epoch: 1, Cost time: 103.753s 
+	speed: 0.4491s/iter; left time: 771.9584s
+	speed: 0.0729s/iter; left time: 117.9526s
+	speed: 0.0729s/iter; left time: 110.6798s
+	speed: 0.0729s/iter; left time: 103.4045s
+	speed: 0.0729s/iter; left time: 96.1183s
+	speed: 0.0729s/iter; left time: 88.8617s
+	speed: 0.0729s/iter; left time: 81.5752s
+	speed: 0.0730s/iter; left time: 74.4113s
+	speed: 0.0730s/iter; left time: 67.0880s
+Epoch: 2, Cost time: 103.339s 
+	speed: 0.4510s/iter; left time: 365.3149s
+	speed: 0.0729s/iter; left time: 51.7347s
+	speed: 0.0730s/iter; left time: 44.5353s
+	speed: 0.0731s/iter; left time: 37.2596s
+	speed: 0.0729s/iter; left time: 29.8937s
+	speed: 0.0729s/iter; left time: 22.6008s
+	speed: 0.0729s/iter; left time: 15.3062s
+	speed: 0.0729s/iter; left time: 8.0214s
+	speed: 0.0729s/iter; left time: 0.7293s
+Epoch: 3, Cost time: 103.374s 
+Threshold : 0.6281354141235402
+pa_accuracy           : 0.9900
+pa_precision          : 0.9249
+pa_recall             : 0.9882
+pa_f_score            : 0.9555
+MCC_score             : 0.9505
+Affiliation precision : 0.5160
+Affiliation recall    : 0.9730
+R_AUC_ROC             : 0.9187
+R_AUC_PR              : 0.8973
+VUS_ROC               : 0.9096
+VUS_PR                : 0.8894
+Accuracy : 0.9900, Precision : 0.9249, Recall : 0.9882, F-score : 0.9555 

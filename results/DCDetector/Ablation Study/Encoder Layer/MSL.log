@@ -1,0 +1,293 @@
+
+
+
+2025-03-09 12:37:50
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 128
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 1
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.0513s/iter; left time: 64.9626s
+	speed: 0.0325s/iter; left time: 37.9299s
+	speed: 0.0325s/iter; left time: 34.6565s
+
+
+
+2025-03-09 12:38:42
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 1
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.0682s/iter; left time: 39.6646s
+	speed: 0.0597s/iter; left time: 28.7658s
+Epoch: 1, Cost time: 22.338s 
+	speed: 0.1570s/iter; left time: 55.7302s
+	speed: 0.0597s/iter; left time: 15.2225s
+Epoch: 2, Cost time: 21.665s 
+	speed: 0.1576s/iter; left time: 20.1737s
+	speed: 0.0598s/iter; left time: 1.6734s
+Epoch: 3, Cost time: 21.654s 
+Threshold : 0.376135420203209
+pa_accuracy           : 0.9875
+pa_precision          : 0.9270
+pa_recall             : 0.9677
+pa_f_score            : 0.9469
+MCC_score             : 0.9401
+Affiliation precision : 0.5099
+Affiliation recall    : 0.9641
+R_AUC_ROC             : 0.8997
+R_AUC_PR              : 0.8826
+VUS_ROC               : 0.9031
+VUS_PR                : 0.8857
+Accuracy : 0.9875, Precision : 0.9270, Recall : 0.9677, F-score : 0.9469 
+
+
+
+2025-03-09 12:40:31
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 2
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1224s/iter; left time: 71.2216s
+	speed: 0.1143s/iter; left time: 55.0743s
+Epoch: 1, Cost time: 40.840s 
+	speed: 0.2878s/iter; left time: 102.1828s
+	speed: 0.1143s/iter; left time: 29.1581s
+Epoch: 2, Cost time: 40.160s 
+	speed: 0.2879s/iter; left time: 36.8452s
+	speed: 0.1143s/iter; left time: 3.2015s
+Epoch: 3, Cost time: 40.201s 
+Threshold : 0.6403066307306295
+pa_accuracy           : 0.9865
+pa_precision          : 0.9275
+pa_recall             : 0.9577
+pa_f_score            : 0.9424
+MCC_score             : 0.9349
+Affiliation precision : 0.5267
+Affiliation recall    : 0.9725
+R_AUC_ROC             : 0.9107
+R_AUC_PR              : 0.8924
+VUS_ROC               : 0.8997
+VUS_PR                : 0.8829
+Accuracy : 0.9865, Precision : 0.9275, Recall : 0.9577, F-score : 0.9424 
+
+
+
+2025-03-09 12:43:20
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1767s/iter; left time: 102.8233s
+	speed: 0.1688s/iter; left time: 81.3652s
+Epoch: 1, Cost time: 59.349s 
+	speed: 0.4181s/iter; left time: 148.4262s
+	speed: 0.1689s/iter; left time: 43.0697s
+Epoch: 2, Cost time: 58.701s 
+	speed: 0.4188s/iter; left time: 53.6098s
+	speed: 0.1689s/iter; left time: 4.7296s
+Epoch: 3, Cost time: 58.706s 
+Threshold : 0.9614952814579012
+pa_accuracy           : 0.9874
+pa_precision          : 0.9304
+pa_recall             : 0.9623
+pa_f_score            : 0.9461
+MCC_score             : 0.9391
+Affiliation precision : 0.5352
+Affiliation recall    : 0.9666
+R_AUC_ROC             : 0.8826
+R_AUC_PR              : 0.8692
+VUS_ROC               : 0.8846
+VUS_PR                : 0.8709
+Accuracy : 0.9874, Precision : 0.9304, Recall : 0.9623, F-score : 0.9461 
+
+
+
+2025-03-09 12:47:09
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 4
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.2305s/iter; left time: 134.1532s
+	speed: 0.2234s/iter; left time: 107.6891s
+Epoch: 1, Cost time: 77.925s 
+	speed: 0.5496s/iter; left time: 195.1169s
+	speed: 0.2235s/iter; left time: 57.0006s
+Epoch: 2, Cost time: 77.338s 
+	speed: 0.5506s/iter; left time: 70.4804s
+	speed: 0.2235s/iter; left time: 6.2582s
+Epoch: 3, Cost time: 77.307s 
+Threshold : 0.996030372977257
+pa_accuracy           : 0.9869
+pa_precision          : 0.9307
+pa_recall             : 0.9581
+pa_f_score            : 0.9442
+MCC_score             : 0.9369
+Affiliation precision : 0.5457
+Affiliation recall    : 0.9695
+R_AUC_ROC             : 0.8960
+R_AUC_PR              : 0.8808
+VUS_ROC               : 0.8914
+VUS_PR                : 0.8770
+Accuracy : 0.9869, Precision : 0.9307, Recall : 0.9581, F-score : 0.9442 
+
+
+
+2025-03-09 12:52:00
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: MSL
+dataset: MSL
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 5
+gpu: 0
+index: 137
+input_c: 55
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 55
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.2846s/iter; left time: 165.6280s
+	speed: 0.2779s/iter; left time: 133.9594s
+Epoch: 1, Cost time: 96.438s 
+	speed: 0.6802s/iter; left time: 241.4730s
+	speed: 0.2781s/iter; left time: 70.9034s
+Epoch: 2, Cost time: 95.763s 
+	speed: 0.6804s/iter; left time: 87.0858s
+	speed: 0.2780s/iter; left time: 7.7853s
+Epoch: 3, Cost time: 95.778s 
+Threshold : 0.9517161518335355
+pa_accuracy           : 0.9815
+pa_precision          : 0.9262
+pa_recall             : 0.9123
+pa_f_score            : 0.9192
+MCC_score             : 0.9088
+Affiliation precision : 0.5177
+Affiliation recall    : 0.9659
+R_AUC_ROC             : 0.8774
+R_AUC_PR              : 0.8627
+VUS_ROC               : 0.8745
+VUS_PR                : 0.8603
+Accuracy : 0.9815, Precision : 0.9262, Recall : 0.9123, F-score : 0.9192 

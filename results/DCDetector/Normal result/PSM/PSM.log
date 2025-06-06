@@ -1,0 +1,61 @@
+
+
+
+2025-03-09 11:14:44
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 25
+patch_size: [1, 3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1922s/iter; left time: 279.1080s
+	speed: 0.1837s/iter; left time: 248.4227s
+	speed: 0.1839s/iter; left time: 230.2185s
+	speed: 0.1838s/iter; left time: 211.7552s
+	speed: 0.1838s/iter; left time: 193.3570s
+Epoch: 1, Cost time: 122.208s 
+	speed: 0.4798s/iter; left time: 448.5987s
+	speed: 0.1837s/iter; left time: 153.4113s
+	speed: 0.1837s/iter; left time: 135.0120s
+	speed: 0.1838s/iter; left time: 116.6872s
+	speed: 0.1837s/iter; left time: 98.2943s
+Epoch: 2, Cost time: 121.339s 
+	speed: 0.4798s/iter; left time: 200.5726s
+	speed: 0.1840s/iter; left time: 58.5131s
+	speed: 0.1840s/iter; left time: 40.1132s
+	speed: 0.1840s/iter; left time: 21.7157s
+	speed: 0.1841s/iter; left time: 3.3142s
+Epoch: 3, Cost time: 121.574s 
+Threshold : 0.9998831748962402
+pa_accuracy           : 0.9882
+pa_precision          : 0.9707
+pa_recall             : 0.9823
+pa_f_score            : 0.9765
+MCC_score             : 0.9686
+Affiliation precision : 0.5419
+Affiliation recall    : 0.7929
+R_AUC_ROC             : 0.8891
+R_AUC_PR              : 0.9098
+VUS_ROC               : 0.8495
+VUS_PR                : 0.8802
+Accuracy : 0.9882, Precision : 0.9707, Recall : 0.9823, F-score : 0.9765 

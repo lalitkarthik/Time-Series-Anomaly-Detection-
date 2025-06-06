@@ -1,0 +1,133 @@
+
+
+
+2025-03-09 10:04:45
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 512
+d_model: 256
+data_path: SMD
+dataset: SMD
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 2
+output_c: 38
+patch_size: [5, 7]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 105
+====================  Train  ===================
+
+
+
+2025-03-09 10:07:20
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 512
+d_model: 256
+data_path: SMD
+dataset: SMD
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 2
+output_c: 38
+patch_size: [5, 7]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 105
+====================  Train  ===================
+	speed: 0.3342s/iter; left time: 891.3473s
+	speed: 0.3261s/iter; left time: 837.2188s
+
+
+
+2025-03-09 10:09:05
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 512
+d_model: 256
+data_path: SMD
+dataset: SMD
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 2
+output_c: 38
+patch_size: [5, 7]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 105
+====================  Train  ===================
+	speed: 0.3345s/iter; left time: 891.9981s
+	speed: 0.3262s/iter; left time: 837.2969s
+	speed: 0.3262s/iter; left time: 804.7907s
+	speed: 0.3263s/iter; left time: 772.3099s
+	speed: 0.3263s/iter; left time: 739.7814s
+	speed: 0.3263s/iter; left time: 707.0898s
+	speed: 0.3264s/iter; left time: 674.7522s
+	speed: 0.3264s/iter; left time: 642.1113s
+	speed: 0.3264s/iter; left time: 609.3563s
+	speed: 0.3264s/iter; left time: 576.7060s
+	speed: 0.3264s/iter; left time: 544.1668s
+	speed: 0.3265s/iter; left time: 511.6286s
+	speed: 0.3264s/iter; left time: 478.8183s
+Epoch: 1, Cost time: 632.240s 
+	speed: 2.3984s/iter; left time: 3079.4998s
+	speed: 0.3266s/iter; left time: 386.6819s
+	speed: 0.3267s/iter; left time: 354.1342s
+	speed: 0.3267s/iter; left time: 321.4466s
+	speed: 0.3266s/iter; left time: 288.7327s
+	speed: 0.3266s/iter; left time: 256.0761s
+	speed: 0.3267s/iter; left time: 223.4588s
+	speed: 0.3267s/iter; left time: 190.7972s
+	speed: 0.3266s/iter; left time: 158.0853s
+	speed: 0.3266s/iter; left time: 125.4081s
+	speed: 0.3266s/iter; left time: 92.7607s
+	speed: 0.3266s/iter; left time: 60.1033s
+	speed: 0.3267s/iter; left time: 27.4397s
+Epoch: 2, Cost time: 631.910s 
+Threshold : 1.0
+pa_accuracy           : 0.9580
+pa_precision          : 0.0000
+pa_recall             : 0.0000
+pa_f_score            : 0.0000
+MCC_score             : nan
+Affiliation precision : nan
+Affiliation recall    : 0.0000
+R_AUC_ROC             : 0.5105
+R_AUC_PR              : 0.5407
+VUS_ROC               : 0.5104
+VUS_PR                : 0.5404
+Accuracy : 0.9580, Precision : 0.0000, Recall : 0.0000, F-score : 0.0000 

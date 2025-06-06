@@ -1,0 +1,194 @@
+
+
+
+2025-03-09 12:40:25
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 256
+d_model: 256
+data_path: NIPS_TS_Swan
+dataset: NIPS_TS_Swan
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 38
+patch_size: [1, 3]
+rec_timeseries: True
+use_gpu: False
+use_multi_gpu: True
+win_size: 36
+====================  Train  ===================
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+
+
+
+2025-03-09 12:50:06
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 256
+d_model: 256
+data_path: NIPS_TS_Swan
+dataset: NIPS_TS_Swan
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 38
+patch_size: [1, 3]
+rec_timeseries: True
+use_gpu: False
+use_multi_gpu: True
+win_size: 36
+====================  Train  ===================
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+
+
+
+2025-03-09 12:56:10
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 256
+d_model: 256
+data_path: NIPS_TS_Swan
+dataset: NIPS_TS_Swan
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 38
+patch_size: [1, 3]
+rec_timeseries: True
+use_gpu: False
+use_multi_gpu: True
+win_size: 36
+====================  Train  ===================
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+
+
+
+2025-03-09 13:00:41
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 256
+d_model: 256
+data_path: NIPS_TS_Swan
+dataset: NIPS_TS_Swan
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 38
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 3
+output_c: 38
+patch_size: [1, 3]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: False
+win_size: 36
+====================  Train  ===================
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+	speed: 0.1456s/iter; left time: 87.7948s
+	speed: 0.1378s/iter; left time: 69.2948s
+Epoch: 1, Cost time: 46.606s 
+	speed: 0.3223s/iter; left time: 118.9249s
+	speed: 0.1379s/iter; left time: 37.1022s
+Epoch: 2, Cost time: 46.011s 
+	speed: 0.3228s/iter; left time: 43.5806s
+	speed: 0.1378s/iter; left time: 4.8239s
+Epoch: 3, Cost time: 46.007s 
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+test: (60000, 38)
+train: (60000, 38)
+Threshold : 0.6101049830913545
+pa_accuracy           : 0.8482
+pa_precision          : 0.9468
+pa_recall             : 0.4610
+pa_f_score            : 0.6201
+MCC_score             : 0.5935
+Affiliation precision : 0.5032
+Affiliation recall    : 0.0374
+R_AUC_ROC             : 0.8620
+R_AUC_PR              : 0.9331
+VUS_ROC               : 0.8442
+VUS_PR                : 0.9198
+Accuracy : 0.8482, Precision : 0.9468, Recall : 0.4610, F-score : 0.6201 

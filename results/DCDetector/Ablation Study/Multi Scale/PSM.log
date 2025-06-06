@@ -1,0 +1,511 @@
+
+
+
+2025-03-09 14:56:08
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [1]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1061s/iter; left time: 263.8012s
+	speed: 0.0994s/iter; left time: 237.1880s
+	speed: 0.0995s/iter; left time: 227.3696s
+	speed: 0.0994s/iter; left time: 217.3792s
+	speed: 0.0993s/iter; left time: 207.1172s
+Epoch: 1, Cost time: 66.932s 
+	speed: 0.2668s/iter; left time: 525.3015s
+	speed: 0.0993s/iter; left time: 185.6079s
+	speed: 0.0994s/iter; left time: 175.8207s
+	speed: 0.0995s/iter; left time: 166.0371s
+	speed: 0.0995s/iter; left time: 156.0722s
+Epoch: 2, Cost time: 66.462s 
+	speed: 0.2675s/iter; left time: 388.3816s
+	speed: 0.0994s/iter; left time: 134.4347s
+	speed: 0.0994s/iter; left time: 124.5064s
+	speed: 0.0994s/iter; left time: 114.4920s
+	speed: 0.0994s/iter; left time: 104.5921s
+Epoch: 3, Cost time: 66.463s 
+	speed: 0.2673s/iter; left time: 249.9579s
+	speed: 0.0995s/iter; left time: 83.0551s
+	speed: 0.0995s/iter; left time: 73.1316s
+	speed: 0.0995s/iter; left time: 63.1865s
+	speed: 0.0995s/iter; left time: 53.2226s
+Epoch: 4, Cost time: 66.496s 
+	speed: 0.2676s/iter; left time: 111.8740s
+	speed: 0.0995s/iter; left time: 31.6423s
+	speed: 0.0998s/iter; left time: 21.7519s
+	speed: 0.0995s/iter; left time: 11.7386s
+	speed: 0.0995s/iter; left time: 1.7907s
+Epoch: 5, Cost time: 66.517s 
+Threshold : 0.022651548720896243
+pa_accuracy           : 0.9829
+pa_precision          : 0.9699
+pa_recall             : 0.9615
+pa_f_score            : 0.9657
+MCC_score             : 0.9543
+Affiliation precision : 0.5137
+Affiliation recall    : 0.7794
+R_AUC_ROC             : 0.8607
+R_AUC_PR              : 0.8889
+VUS_ROC               : 0.8370
+VUS_PR                : 0.8707
+Accuracy : 0.9829, Precision : 0.9699, Recall : 0.9615, F-score : 0.9657 
+
+
+
+2025-03-09 15:02:57
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [3]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.0577s/iter; left time: 143.3727s
+	speed: 0.0506s/iter; left time: 120.7348s
+	speed: 0.0506s/iter; left time: 115.5895s
+	speed: 0.0506s/iter; left time: 110.5422s
+	speed: 0.0506s/iter; left time: 105.4965s
+Epoch: 1, Cost time: 35.525s 
+	speed: 0.1483s/iter; left time: 291.9970s
+	speed: 0.0506s/iter; left time: 94.5460s
+	speed: 0.0506s/iter; left time: 89.4381s
+	speed: 0.0506s/iter; left time: 84.4091s
+	speed: 0.0506s/iter; left time: 79.3862s
+Epoch: 2, Cost time: 34.980s 
+	speed: 0.1479s/iter; left time: 214.8077s
+	speed: 0.0506s/iter; left time: 68.3807s
+	speed: 0.0506s/iter; left time: 63.3145s
+	speed: 0.0506s/iter; left time: 58.2527s
+	speed: 0.0506s/iter; left time: 53.2418s
+Epoch: 3, Cost time: 34.970s 
+	speed: 0.1479s/iter; left time: 138.2642s
+	speed: 0.0506s/iter; left time: 42.2175s
+	speed: 0.0506s/iter; left time: 37.1990s
+	speed: 0.0506s/iter; left time: 32.1153s
+	speed: 0.0506s/iter; left time: 27.0660s
+Epoch: 4, Cost time: 35.003s 
+	speed: 0.1482s/iter; left time: 61.9577s
+	speed: 0.0506s/iter; left time: 16.0802s
+	speed: 0.0506s/iter; left time: 11.0320s
+	speed: 0.0506s/iter; left time: 5.9668s
+	speed: 0.0506s/iter; left time: 0.9104s
+Epoch: 5, Cost time: 35.040s 
+Threshold : 0.4732695102691643
+pa_accuracy           : 0.9835
+pa_precision          : 0.9699
+pa_recall             : 0.9640
+pa_f_score            : 0.9669
+MCC_score             : 0.9559
+Affiliation precision : 0.5296
+Affiliation recall    : 0.7872
+R_AUC_ROC             : 0.8921
+R_AUC_PR              : 0.9115
+VUS_ROC               : 0.8349
+VUS_PR                : 0.8689
+Accuracy : 0.9835, Precision : 0.9699, Recall : 0.9640, F-score : 0.9669 
+
+
+
+2025-03-09 15:06:59
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.0427s/iter; left time: 106.1413s
+	speed: 0.0354s/iter; left time: 84.5415s
+	speed: 0.0355s/iter; left time: 81.0758s
+	speed: 0.0354s/iter; left time: 77.4472s
+	speed: 0.0354s/iter; left time: 73.8993s
+Epoch: 1, Cost time: 24.098s 
+	speed: 0.0947s/iter; left time: 186.5404s
+	speed: 0.0354s/iter; left time: 66.2246s
+	speed: 0.0355s/iter; left time: 62.8109s
+	speed: 0.0354s/iter; left time: 59.1550s
+	speed: 0.0355s/iter; left time: 55.6388s
+Epoch: 2, Cost time: 23.641s 
+	speed: 0.0950s/iter; left time: 137.9562s
+	speed: 0.0355s/iter; left time: 47.9491s
+	speed: 0.0355s/iter; left time: 44.4175s
+	speed: 0.0355s/iter; left time: 40.8405s
+	speed: 0.0355s/iter; left time: 37.3170s
+Epoch: 3, Cost time: 23.658s 
+	speed: 0.0952s/iter; left time: 88.9690s
+	speed: 0.0355s/iter; left time: 29.6226s
+	speed: 0.0355s/iter; left time: 26.0886s
+	speed: 0.0355s/iter; left time: 22.5507s
+	speed: 0.0355s/iter; left time: 18.9723s
+Epoch: 4, Cost time: 23.614s 
+	speed: 0.0949s/iter; left time: 39.6718s
+	speed: 0.0355s/iter; left time: 11.2769s
+	speed: 0.0355s/iter; left time: 7.7339s
+	speed: 0.0355s/iter; left time: 4.1882s
+	speed: 0.0355s/iter; left time: 0.6386s
+Epoch: 5, Cost time: 23.678s 
+Threshold : 0.9988675117492676
+pa_accuracy           : 0.9876
+pa_precision          : 0.9706
+pa_recall             : 0.9802
+pa_f_score            : 0.9754
+MCC_score             : 0.9671
+Affiliation precision : 0.5471
+Affiliation recall    : 0.7952
+R_AUC_ROC             : 0.9195
+R_AUC_PR              : 0.9318
+VUS_ROC               : 0.8722
+VUS_PR                : 0.8965
+Accuracy : 0.9876, Precision : 0.9706, Recall : 0.9802, F-score : 0.9754 
+
+
+
+2025-03-09 15:09:58
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [1, 3]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1561s/iter; left time: 388.1522s
+	speed: 0.1490s/iter; left time: 355.4001s
+	speed: 0.1491s/iter; left time: 340.9061s
+	speed: 0.1491s/iter; left time: 325.8405s
+	speed: 0.1490s/iter; left time: 310.7239s
+Epoch: 1, Cost time: 100.056s 
+	speed: 0.3992s/iter; left time: 786.0416s
+	speed: 0.1490s/iter; left time: 278.5429s
+	speed: 0.1490s/iter; left time: 263.5686s
+	speed: 0.1490s/iter; left time: 248.7430s
+	speed: 0.1491s/iter; left time: 233.9027s
+Epoch: 2, Cost time: 99.468s 
+	speed: 0.3992s/iter; left time: 579.6052s
+	speed: 0.1491s/iter; left time: 201.5340s
+	speed: 0.1491s/iter; left time: 186.6503s
+	speed: 0.1491s/iter; left time: 171.7722s
+	speed: 0.1491s/iter; left time: 156.9051s
+Epoch: 3, Cost time: 99.548s 
+	speed: 0.3998s/iter; left time: 373.8108s
+	speed: 0.1492s/iter; left time: 124.5924s
+	speed: 0.1492s/iter; left time: 109.6329s
+	speed: 0.1492s/iter; left time: 94.7211s
+	speed: 0.1491s/iter; left time: 79.7763s
+Epoch: 4, Cost time: 99.613s 
+	speed: 0.4003s/iter; left time: 167.3181s
+	speed: 0.1492s/iter; left time: 47.4478s
+	speed: 0.1492s/iter; left time: 32.5174s
+	speed: 0.1492s/iter; left time: 17.6025s
+	speed: 0.1492s/iter; left time: 2.6850s
+Epoch: 5, Cost time: 99.570s 
+Threshold : 0.9216521668434141
+pa_accuracy           : 0.9850
+pa_precision          : 0.9668
+pa_recall             : 0.9733
+pa_f_score            : 0.9700
+MCC_score             : 0.9600
+Affiliation precision : 0.5207
+Affiliation recall    : 0.7876
+R_AUC_ROC             : 0.9160
+R_AUC_PR              : 0.9278
+VUS_ROC               : 0.8585
+VUS_PR                : 0.8850
+Accuracy : 0.9850, Precision : 0.9668, Recall : 0.9733, F-score : 0.9700 
+
+
+
+2025-03-09 15:19:43
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [1, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1417s/iter; left time: 352.2875s
+	speed: 0.1341s/iter; left time: 319.9524s
+	speed: 0.1341s/iter; left time: 306.5127s
+	speed: 0.1341s/iter; left time: 293.2175s
+	speed: 0.1341s/iter; left time: 279.7997s
+Epoch: 1, Cost time: 88.907s 
+	speed: 0.3472s/iter; left time: 683.7040s
+	speed: 0.1344s/iter; left time: 251.1177s
+	speed: 0.1343s/iter; left time: 237.5611s
+	speed: 0.1342s/iter; left time: 223.8978s
+	speed: 0.1352s/iter; left time: 212.1882s
+Epoch: 2, Cost time: 88.343s 
+	speed: 0.3459s/iter; left time: 502.2547s
+	speed: 0.1341s/iter; left time: 181.3130s
+	speed: 0.1341s/iter; left time: 167.8827s
+	speed: 0.1342s/iter; left time: 154.5532s
+	speed: 0.1341s/iter; left time: 141.1124s
+Epoch: 3, Cost time: 88.199s 
+	speed: 0.3463s/iter; left time: 323.7770s
+	speed: 0.1342s/iter; left time: 112.0400s
+	speed: 0.1342s/iter; left time: 98.6145s
+	speed: 0.1342s/iter; left time: 85.2044s
+	speed: 0.1342s/iter; left time: 71.7921s
+Epoch: 4, Cost time: 88.234s 
+	speed: 0.3463s/iter; left time: 144.7410s
+	speed: 0.1342s/iter; left time: 42.6785s
+	speed: 0.1342s/iter; left time: 29.2582s
+	speed: 0.1342s/iter; left time: 15.8355s
+	speed: 0.1342s/iter; left time: 2.4159s
+Epoch: 5, Cost time: 88.239s 
+Threshold : 0.9181447243690428
+pa_accuracy           : 0.9851
+pa_precision          : 0.9726
+pa_recall             : 0.9679
+pa_f_score            : 0.9702
+MCC_score             : 0.9603
+Affiliation precision : 0.5137
+Affiliation recall    : 0.7818
+R_AUC_ROC             : 0.8840
+R_AUC_PR              : 0.9068
+VUS_ROC               : 0.8282
+VUS_PR                : 0.8651
+Accuracy : 0.9851, Precision : 0.9726, Recall : 0.9679, F-score : 0.9702 
+
+
+
+2025-03-09 15:28:26
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.0924s/iter; left time: 229.6253s
+	speed: 0.0848s/iter; left time: 202.2735s
+	speed: 0.0848s/iter; left time: 193.7830s
+	speed: 0.0847s/iter; left time: 185.2560s
+	speed: 0.0847s/iter; left time: 176.7070s
+Epoch: 1, Cost time: 57.037s 
+	speed: 0.2264s/iter; left time: 445.6885s
+	speed: 0.0848s/iter; left time: 158.4185s
+	speed: 0.0848s/iter; left time: 149.9730s
+	speed: 0.0847s/iter; left time: 141.4446s
+	speed: 0.0848s/iter; left time: 133.0161s
+Epoch: 2, Cost time: 56.496s 
+	speed: 0.2266s/iter; left time: 329.0245s
+	speed: 0.0848s/iter; left time: 114.6089s
+	speed: 0.0848s/iter; left time: 106.1491s
+	speed: 0.0848s/iter; left time: 97.6731s
+	speed: 0.0848s/iter; left time: 89.1904s
+Epoch: 3, Cost time: 56.495s 
+	speed: 0.2263s/iter; left time: 211.5822s
+	speed: 0.0848s/iter; left time: 70.8048s
+	speed: 0.0849s/iter; left time: 62.3778s
+	speed: 0.0848s/iter; left time: 53.8374s
+	speed: 0.0848s/iter; left time: 45.3763s
+Epoch: 4, Cost time: 56.476s 
+	speed: 0.2263s/iter; left time: 94.5909s
+	speed: 0.0848s/iter; left time: 26.9736s
+	speed: 0.0848s/iter; left time: 18.4951s
+	speed: 0.0849s/iter; left time: 10.0150s
+	speed: 0.0848s/iter; left time: 1.5272s
+Epoch: 5, Cost time: 56.537s 
+Threshold : 0.9999692440032959
+pa_accuracy           : 0.9872
+pa_precision          : 0.9726
+pa_recall             : 0.9763
+pa_f_score            : 0.9744
+MCC_score             : 0.9659
+Affiliation precision : 0.5293
+Affiliation recall    : 0.7866
+R_AUC_ROC             : 0.8665
+R_AUC_PR              : 0.8941
+VUS_ROC               : 0.8260
+VUS_PR                : 0.8638
+Accuracy : 0.9872, Precision : 0.9726, Recall : 0.9763, F-score : 0.9744 
+
+
+
+2025-03-09 15:34:21
+================ Hyperparameters ===============
+anormly_ratio: 1.0
+batch_size: 256
+d_model: 256
+data_path: PSM
+dataset: PSM
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+e_layers: 3
+gpu: 0
+index: 137
+input_c: 25
+k: 3
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+n_heads: 1
+num_epochs: 5
+output_c: 25
+patch_size: [1, 3, 5]
+rec_timeseries: True
+use_gpu: True
+use_multi_gpu: True
+win_size: 60
+====================  Train  ===================
+	speed: 0.1910s/iter; left time: 474.7772s
+	speed: 0.1832s/iter; left time: 437.0989s
+	speed: 0.1833s/iter; left time: 418.9941s
+	speed: 0.1833s/iter; left time: 400.6801s
+	speed: 0.1833s/iter; left time: 382.4456s
+Epoch: 1, Cost time: 121.698s 
+	speed: 0.4783s/iter; left time: 941.6935s
+	speed: 0.1836s/iter; left time: 343.1009s
+	speed: 0.1836s/iter; left time: 324.7018s
+	speed: 0.1835s/iter; left time: 306.2854s
+	speed: 0.1836s/iter; left time: 288.1072s
+Epoch: 2, Cost time: 121.174s 
+	speed: 0.4785s/iter; left time: 694.7247s
+	speed: 0.1836s/iter; left time: 248.2821s
+	speed: 0.1836s/iter; left time: 229.8613s
+	speed: 0.1836s/iter; left time: 211.5400s
+	speed: 0.1836s/iter; left time: 193.1936s
+Epoch: 3, Cost time: 121.263s 
+	speed: 0.4790s/iter; left time: 447.8620s
+	speed: 0.1837s/iter; left time: 153.3516s
+	speed: 0.1836s/iter; left time: 134.9455s
+	speed: 0.1836s/iter; left time: 116.6011s
+	speed: 0.1837s/iter; left time: 98.2548s
+Epoch: 4, Cost time: 121.211s 
+	speed: 0.4784s/iter; left time: 199.9757s
+	speed: 0.1836s/iter; left time: 58.3965s
+	speed: 0.1836s/iter; left time: 40.0322s
+	speed: 0.1836s/iter; left time: 21.6669s
+	speed: 0.1837s/iter; left time: 3.3058s
+Epoch: 5, Cost time: 121.244s 
+Threshold : 0.9971523058414459
+pa_accuracy           : 0.9880
+pa_precision          : 0.9715
+pa_recall             : 0.9810
+pa_f_score            : 0.9762
+MCC_score             : 0.9683
+Affiliation precision : 0.5595
+Affiliation recall    : 0.8136
+R_AUC_ROC             : 0.9095
+R_AUC_PR              : 0.9248
+VUS_ROC               : 0.8555
+VUS_PR                : 0.8847
+Accuracy : 0.9880, Precision : 0.9715, Recall : 0.9810, F-score : 0.9762 
